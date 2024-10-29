@@ -93,6 +93,7 @@ class _GamePageState extends State<GamePage> {
       _board = List<String>.filled(9, '');
       _turn = 'X';
       _winner = '';
+      _winningLine = [];
     });
   }
 
